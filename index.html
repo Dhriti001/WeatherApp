@@ -10,6 +10,10 @@
 <body>
 
     <main id="app-container">
+        <header>
+            <h2 class="logo">Weather App</h2>
+            <div class="toggle"></div>
+          </header>
         <form id="search-form">
             <input type="search" placeholder="Enter City Name" id="search-input" required autocomplete="on" />
             <br>
@@ -19,15 +23,15 @@
         </form>
 
         <div id="location">
-            <p>_____</p>
+            <p>________</p>
         </div>
         <div id="temp">
             <img id="temp-icon" src="./icons/sun.svg" alt="">
-            <p><span id="temp-value">__</span> <span id="temp-unit">&#176c</span> </p>
+            <p><span id="temp-value">___  </span> <span id="temp-unit">&#176c</span> </p>
         </div>
 
         <div id="climate">
-            <p>____</p>
+            <p>______</p>
         </div>
 
 
@@ -35,6 +39,14 @@
 
 
     </main>
+
+    <div class="footer">
+        <div class="greetings">
+        <p>Warm wishes for the day from Dhriti! <span>♥</span></p>
+        </div>
+    </div>
+
+
     <script src="script.js">
     </script>
 </body>
